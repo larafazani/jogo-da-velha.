@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <time.h>
-#include "function_jogodavelha.c"
+#include "functions_jogodavelha.c"
 
 void inicializar_tabuleiro(char tab[3][3]);
 void exibir_tabuleiro(char tab[3][3]);
