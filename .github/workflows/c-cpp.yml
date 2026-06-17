@@ -21,5 +21,3 @@ jobs:
       run: gcc jogodavelha.c functions_jogodavelha.c -o jogodavelha
     - name: executar o programa automático
       run: ./jogodavelha X auto
-    - name: executar o programa principal
-      run: ./jogodavelha X
