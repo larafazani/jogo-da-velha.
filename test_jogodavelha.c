@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <assert.h>
+#include "functions_jogodavelha.c"
 
 void inicializar_tabuleiro(char tab[3][3]);
 int validar_jogada(char tab[3][3], int l, int c);
