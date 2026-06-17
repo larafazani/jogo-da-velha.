@@ -18,6 +18,6 @@ jobs:
     - name: executar o teste
       run: ./test_jogodavelha
     - name: compilar o programa principal
-      run: gcc jogodavelha.c -o jogodavelha
+      run: gcc jogodavelha.c functions_jogodavelha.c -o jogodavelha
     - name: executar o programa principal
       run: ./jogodavelha X
